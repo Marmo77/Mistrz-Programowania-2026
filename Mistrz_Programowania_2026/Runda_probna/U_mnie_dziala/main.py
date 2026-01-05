@@ -1,0 +1,1 @@
+# ZADANIE -> https://szkopul.edu.pl/c/mistrz-programowania-2026/p/r0b/
