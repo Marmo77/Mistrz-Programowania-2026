@@ -18,7 +18,7 @@ class U_mnie_dziala:
         # 4 -> ilosc powtorzen 3
         # k -> ilosc powtorzen k-1
         # ----
-        # -- JEST DO DOBRE RÓWNIEŻ DOBRE ROZWIĄZANIE, ale nie jest efektywne i przekracza limit runtime error, limit konwersji do int jest 4300, wiec zwracamy haslo jako string --
+        # -- JEST DO DOBRE ROZWIĄZANIE, ale nie jest efektywne i przekracza limit runtime error, limit konwersji do int jest 4300, wiec zwracamy haslo jako string (python traktuje ten string jako int i nie trzeba konwertowac do int recznie!)--
         haslo = []
         for k in liczby_parzyste: # przechodzi przez każdy element list (dlugosc listy - n)
             ilosc_powtorzen = k - 1

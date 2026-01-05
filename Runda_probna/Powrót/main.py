@@ -3,7 +3,7 @@
 class Powrot:
     # 3 dni nieobecnosci -> 4 dzialy
     # dzialanie: proporcjonalnosc -> n / 3 = x | x * 4 = result
-    # jesli wychodz iam forma ulamkowa 14.66 to zaokraglenie w dol -> 14
+    # jesli wychodzi forma ulamkowa 14.66 to zaokraglenie w dol -> 14
     def do_nadrobienia(n: int) -> float: # n - ilosc dni nieobecnych
         # skala 3:4 podane jako zadanie
 
