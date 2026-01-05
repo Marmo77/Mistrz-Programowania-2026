@@ -9,7 +9,7 @@ class RozmiarChoinki:
 
         # trzeba wykorzystac drzewo binarne - lewo, prawo
         lewo, prawo = 1, n # od skrajnie lewej do skrajnie prawej (cały zakres choinek)
-
+        # n (1 ≤ 𝑛 ≤ 1018) zakres od 1 nie od 0 -> lewo
         while lewo <= prawo: # do momentu az nie znajdzie odpowiedzi
             srodek = (lewo + prawo) // 2 # daje nam liczbe srodkowa bez reszty ( int )
             #teraz pytamy systemu o srodek (mniejsza czy wieksza czy rowna)
