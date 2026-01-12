@@ -12,7 +12,7 @@ class Kurtka:
         else:
             return "Spokojnie."
         
-
+# 100 / 100
 
 if __name__ == "__main__":
 
@@ -22,3 +22,4 @@ if __name__ == "__main__":
 
     kurtka = Kurtka()
     print(kurtka.czy_kurtka_jest_bezpieczna(n, a, b, c))
+
