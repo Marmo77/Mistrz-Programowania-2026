@@ -53,29 +53,6 @@ class plan_konwoj:
                 if sasiad == y: # jesli sasiad jest rowny y to znaczy ze da sie dojsc do y z zagrozeniem o poziomie 'zagrozenie'
                     print(f"Muzeum {x}, sasiad {sasiad}, zagrozenie {zagrozenie}") # wypisuje nam zagrozenie dla kazdej trasy naszego sasiada
 
-
-
-
-    def da_sie_dojsc(self, graf, start, cel, max_zagrozenie):
-        odwiedzone = set()
-        kolejka = deque([start])
-        odwiedzone.add(start)
-
-        while kolejka:
-            aktualny = kolejka.popleft()
-
-            if aktualny == cel:
-                return True
-            
-            for sasiad, zagrozenie in graf[aktualny]:
-                if zagrozenie <= max_zagrozenie and sasiad not in odwiedzone:
-                    odwiedzone.add(sasiad)
-                    kolejka.append(sasiad)
-
-        return False
-
-
-
 if __name__ == "__main__":
 
     polaczenia: list[tuple[int, int, int]] = []
